@@ -61,6 +61,7 @@ public class App : CoconaConsoleAppBase
         {
             _logger.Log(LogLevel.Information, "======== Exception ========");
             _logger.Log(LogLevel.Error, "{ex}", ex);
+            Environment.ExitCode = 1;
         }
     }
 
