@@ -9,12 +9,13 @@
         <ToolCommandName>dotnet-tsrts</ToolCommandName>
 
         <!-- NuGet -->
-        <PackageId>TypedSignalR.Client.TypeScript.Generator</PackageId>
+        <PackageId>ClioVis.TypedSignalR.Client.TypeScript.Generator</PackageId>
+        <Version>1.15.0-cliovis.1</Version>
         <AssemblyName>TypedSignalR.Client.TypeScript.Generator</AssemblyName>
         <Title>TypedSignalR.Client.TypeScript.Generator</Title>
         <Description>TypedSignalR.Client.TypeScript is a library/CLI tool that analyzes SignalR hub and receiver type definitions written in C# and generates TypeScript source code to provide strongly typed SignalR clients.</Description>
         <Authors>nenoNaninu</Authors>
-        <RepositoryUrl>https://github.com/nenoNaninu/TypedSignalR.Client.TypeScript</RepositoryUrl>
+        <RepositoryUrl>https://github.com/ClioVisTeam/TypedSignalR.Client.TypeScript</RepositoryUrl>
         <PackageProjectUrl>$(RepositoryUrl)</PackageProjectUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <RepositoryType>git</RepositoryType>
